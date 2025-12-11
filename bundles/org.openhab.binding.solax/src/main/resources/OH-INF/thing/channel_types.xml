@@ -111,7 +111,7 @@
 		<description>Charger State</description>
 		<state pattern="%s" readOnly="true">
 			<options>
-				<option value="0">Preparing</option>
+				<option value="0">Available</option>
 				<option value="1">Preparing</option>
 				<option value="2">Charging</option>
 				<option value="3">Finishing</option>
@@ -120,6 +120,11 @@
 				<option value="6">Reserved</option>
 				<option value="7">Suspended EV</option>
 				<option value="8">Suspended EV SE</option>
+				<option value="9">Update</option>
+				<option value="10">Card Activation</option>
+				<option value="11">Start Delay</option>
+				<option value="12">Charge Pause</option>
+				<option value="13">Stoping</option>
 			</options>
 		</state>
 	</channel-type>
