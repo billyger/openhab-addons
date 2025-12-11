@@ -39,6 +39,8 @@ public class LocalHttpConnector implements SolaxConnector {
 
     private static final String OPT_TYPE = "optType";
     private static final String READ_REALTIME_DATA = "ReadRealTimeData";
+    private static final String READ_SET_DATA = "readSetData"
+    private static final String SET_REG = "setReg"
 
     private static final String PASSWORD = "pwd";
     // The serial number of the Wifi dongle is the password for the connection (default)
